@@ -113,7 +113,7 @@ export default function AlienWorld() {
     // Controls setup
     const shipSpeed = 0.2;
     const rotationSpeed = 0.02;
-    let velocity = new THREE.Vector3();
+    const velocity = new THREE.Vector3();
 
     const handleKeyDown = (e: KeyboardEvent) => {
       keysPressed.current[e.key] = true;
